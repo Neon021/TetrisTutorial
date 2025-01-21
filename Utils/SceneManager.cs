@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
 
-namespace TetrisTutorial.Scenes
+namespace TetrisTutorial.Utils
 {
     public class SceneManager
     {
@@ -23,7 +23,7 @@ namespace TetrisTutorial.Scenes
 
         public void Update(GameTime gameTime)
         {
-            if(_scenes.Count > 0)
+            if (_scenes.Count > 0)
                 _scenes.Peek().Update(gameTime);
         }
 

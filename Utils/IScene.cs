@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace TetrisTutorial.Scenes
+namespace TetrisTutorial.Utils
 {
     public interface IScene
     {

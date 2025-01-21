@@ -2,16 +2,17 @@
 using Microsoft.Xna.Framework.Graphics;
 using TetrisTutorial.Assets.Tetrimino;
 using TetrisTutorial.Factories;
+using TetrisTutorial.Utils;
 
 namespace TetrisTutorial.Scenes
 {
-    internal class TitleScreen : IScene
+    internal class TitleScene : IScene
     {
         private float _angle;
         private Matrix _world;
         private Tetrimino _tetrimino;
 
-        public TitleScreen()
+        public TitleScene()
         {
             TetriminoFactory factory = new();
             _tetrimino = factory.Generate(Enums.Tetriminoes.J);
