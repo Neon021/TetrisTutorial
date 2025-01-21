@@ -60,7 +60,7 @@ namespace TetrisTutorial
             BasicShader.SpecularPower = 16f;
             #endregion
             
-            SceneManager.PushScene(new TitleScreen());
+            SceneManager.PushScene(new GameScene());
             _spriteBatch.Begin();
         }
 
