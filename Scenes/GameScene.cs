@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using TetrisTutorial.Assets.Tetrimino;
 using TetrisTutorial.Factories;
 using TetrisTutorial.Grid;
-using TetrisTutorial.Utils;
+using TetrisTutorial.Utils.Scene;
 
 namespace TetrisTutorial.Scenes
 {

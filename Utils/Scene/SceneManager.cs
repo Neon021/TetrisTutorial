@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
 
-namespace TetrisTutorial.Utils
+namespace TetrisTutorial.Utils.Scene
 {
     public class SceneManager
     {
